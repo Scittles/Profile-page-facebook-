@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bb867f31e9.js"
+	        crossorigin="anonymous"></script>
+	<title>Project</title>
+</head>
+<body>
+<header>
+	<div class="header">
+		<div class="logo">
+			<h1><a href="">Facebook</a></h1>
+		</div>
+		<div class="controls">
+			<a href="#">Logout</a>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="container">
+		<aside class="profile">
+			<div class="avatar">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiKx5DmVdUxf6R6e9qg1TC21Kd68Yp_rFpBw&usqp=CAU"
+                 alt="Фото профиля">
+			</div>
+			<div class="profile_content">
+				<div class="profile_info">
+					<h2>Артур Петорв<span class="edit_profile"><a href="#">edit</a></span></h2>
+					<p>
+						
+					</p>
+				</div>
+			</div>
+			<div class="my_items">
+				<ul>
+					<li><a href="#">Мой Профиль</a></li>
+					<li><a href="theme3_task2.html">Мои Чаты(<span id="messages_counter">5</span>)</a></li>
+					<li><a href="#">Ссыылка на YouTube</a></li>
+					<li><a href="#">Мои Группы</a></li>
+					<li><a href="#">Моя Галерея</a></li>
+                    <li><a href="#">Мои Видео</a></li>
+				</ul>
+			</div>
+		</aside>
+
+		<div class="content">
+			<div class="post">
+				<h3>Паблик с мемасами
+                </h3>
+				<img src="data:image/jpeg;base64,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"
+				     alt="">
+				<p class="post_text">
+					По многочисленным просьбам, скоро мы начнем выкладывать готовые формы для мемов.<br />
+                <br />
+                А пока вот вам кот "Аче всмысле"
+					<br>
+				</p>
+				<button class="view_more">View More</button>
+			</div>
+			<div class="post">
+				<h3>Scittles</h3>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1iI2OSKjb03oEcrXRZrPzoh-NjCktgyXMTVqf5BJFAppiCoTXKnA8x_jefAc-HkvEj4g&usqp=CAU"
+				     alt="">
+				<p class="post_text">Меня отчислили из колледжа.<br />
+                <br />
+                А ведь я не пропукал ни одного занятия, все было хорошо.<br />
+               <br /> А отчислили меня за то, что я кинул петарду в унитаз.<br />
+                <br />Подумаешь, кинул петарду, никто не постродал, ну зачем из-за этого отчислять?
+                </p>
+				<button class="view_more">View More</button>
+			</div>
+		</div>
+
+		<aside class="recommendations">
+			<div class="recommendations_items">
+				<div class="recommendation">
+					<a href="">
+						<h4>Рекомендации по FnaF<span class="recommendation_time"></span></h4>
+						<p class="recommendation_text">Каждая ночь, в каждой из частей фнафа длится по разному.
+                            Поэтому, для того чтобы выжить, теебе необходимо беречь энергию и  
+                        </p>	
+					</a>
+				</div>
+				<div class="recommendation">
+					<a href="">
+						<h4>Рекомендации по Brawl Stars<span class="recommendation_time"></span></h4>
+						<p class="recommendation_text">Никогда не ходите в испытание с рандомами, т. к. вы просто сольетесь, а следующее
+                            испытание будет только через 1249587463543 дней.
+                        </p>
+					</a>
+				</div>
+				<div class="recommendation">
+					<a href="">
+						<h4>Правило Minecraft №1<span class="recommendation_time"></span></h4>
+						<p class="recommendation_text">Если ты ираешь в выживании,
+                             никогда не копай под себя, особенно на новых версиях.</p>
+						
+					</a>
+				</div>
+			</div>
+		</aside>
+	</div>
+</main>
+</body>
+</html>
